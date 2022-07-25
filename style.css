@@ -1,17 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
 body {
-    color: red;
-}
-
-h1 {
-    color: blue;
-
-}
-h2 {
-    color: green;
-}
-#lib-header {
-    color: purple;
-}
-.para {
-    color: pink;
+font-family: 'Montserrat', sans-serif;
 }
