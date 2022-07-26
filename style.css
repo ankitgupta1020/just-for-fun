@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 
+:root {
+     --primary-color: red; 
+}
+
 body {
 font-family: 'Montserrat', sans-serif;
 }
 /** container **/
 .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0rem 1rem;
 }
 
 .container-center {
@@ -15,5 +18,28 @@ font-family: 'Montserrat', sans-serif;
     margin: auto; 
 }
 
+/* link  */
 
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
+}
 
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
+}
+/** look into BEM naming convention for CSS */
+ 
