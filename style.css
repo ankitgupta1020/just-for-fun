@@ -2,11 +2,16 @@
 
 
 :root {
-     --primary-color: red; 
+     --primary-color: #7C3AED; 
 }
+
 
 body {
 font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    margin: 2rem 0rem;
 }
 /** container **/
 .container {
@@ -42,4 +47,6 @@ font-family: 'Montserrat', sans-serif;
     margin: 1rem 1rem 1rem 0rem;
 }
 /** look into BEM naming convention for CSS */
+ /** list **/
+
  
