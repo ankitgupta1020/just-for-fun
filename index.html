@@ -1,162 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
-    <!-- Third way of doing CSS: eternal link -->
-
-    <link href="style.css" rel="stylesheet" />
-
-
+    <title>Home | adarshabalika</title>
+    <link href="style.css" rel="stylesheet"/>
 </head>
-
 <body>
-    <h1>Ankit's component library</h1>
-    <p>Hi i am attending neog.camp and I want to make a library which would make all my projects look good </p>
-
-    <hr>
-
-    <h2>@typography</h2>
-
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest</h2>
-    <p>Let me show you the normal text. This is free flowing and will wrap at the en like a paragraph</p>
-    <p>This paragraph will have <strong>bold</strong>text</p>
-    <small>This is relatively smaller text</small>
-
-    <hr>
-
-    <h2>@container </h2>
-
-    <h3>fluid container</h3>
-    <div class="container">This is a fluid container and it will go till the end of the page </div>
-
-    <h3>center container</h3>
-    <div class="container container-center">This is a centered container and it will go till the specified width</div>
-
-    <h2>@links</h2>
-
-    <a class="link link-primary" href="//">Primary Link </a>
-    <a class="link link-secondary" href="//">Secondary Link </a>
-
-    <hr>
-
-
-    <!-- <div>
-        Here's my list
-        <div>Item one</div>
-        <div>Item One</div>
-    </div>
-     -->
-
-    <h2>@list</h2>
-
-
-    <h3>unorder list</h3>
-    <p> This list will not have the bullet
-
-        <ul class="list-non-bullet">
-            <li>Item One</li>
-            <li>Item Two</li>
-            <li>Item Three</li>
-
+    <nav class="navigation container">
+        <div class="nav-brand">Adarsh Balika</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Blog</a>
+            </li>
         </ul>
+    </nav>
 
-        <h3> unordered inline list </h3>
+    <header class="hero">
+        <img class="hero" src="images/hero.svg" />
+        <h1 class="hero-heading">adarsha balika</h1>
+    </header>
 
-        <ul class="list-non-bullet">
-            <li class="list-item-inline">Inline Item One</li>
-            <li class="list-item-inline">Inline Item Two</li>
-            <li class="list-item-inline">Inline Item Three</li>
-        </ul>
-
-        <h3> revers ordered list</h3>
-
-        <ol reversed>
-            <li>milk</li>
-            <li>eggs</li>
-            <li>break</li>
-
-        </ol>
-
-        <hr />
-
-        <h2>@nav</h2>
-
-        <nav class="navigation container">
-            <div class="nav-brand">iamBrand</div>
-            <ul class="list-non-bullet nav-pills">
-                <li class="list-item-inline">
-                    <a class="link link-active" href="/">home</a>
-                </li>
-                <li class="list-item-inline">
-                    <a class="link" href="/">products</a>
-                </li>
-                <li class="list-item-inline">
-                    <a class="link" href="/">about</a>
-                </li>
-            </ul>
-        </nav>
-
-        <hr>
-
-        <h2>header</h2>
-
-        <header class="hero">
-            <img class="hero" src="images/hero.svg" />
-            <h1 class="hero-heading">Heading inside hero</h1>
-        </header>
-
-        <hr>
-        <h2>@section</h2>
-        <section class="section">
-            <div class="container container-center">
-                <h1>white section</h1>
-                <p>The cascade is an algorithm that defines how user agents combine property values originating from
-                    different sources. The cascade defines the origin and layer that takes precedence when declarations
-                    in more than one origin or cascade layer set a value for a property on an element.</p>
-            </div>
-        </section>
-
-        <section class="section ow">
-            <div class="container container-center">
-                <h1>off white section</h1>
-                <p>The cascade is an algorithm that defines how user agents combine property values originating from
-                    different sources. The cascade defines the origin and layer that takes precedence when declarations
-                    in more than one origin or cascade layer set a value for a property on an element.</p>
-            </div>
-        </section>
-
-        <hr>
-
-        <h2>@footer</h2>
-
-        <footer class="footer">
-            <div class="footer-header">Some small heading inside footer</div>
-            <ul class="social-links list-non-bullet">
-                <li class="list-item-inline">
-                    <a class="link" href="/">
-                        socialone
-                    </a>
-                </li >
-                <li class="list-item-inline">
-                    <a class="link" href="/">
-                        socialtwo
-                    </a>
-                </li>
-                <li class="list-item-inline">
-                    <a class="link" href="/">
-                        socialthree
-                    </a>
-                </li>
-
-            </ul>
-
-        </footer>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>technologies</h1>
+            <p>I'm failier with HTML5, CSS3,Git, JavaScript, NodeJS, ReactJs</p>
         </div>
-</body>
+    </section>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>projects</h1>
+            <p>I like to showcase my work and thus, you can see my projects hosted online</p>
+            <a class="link link-primary" href="/projects.html">See Projects </a>
+        </div>
+    </section>
 
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Blogs</h1>
+            <p>I am also working on some technical an non technical blogs. I like to documents my journey of learning</p>
+            <a class="link link-primary" href="/blogs.html">Read Blogs </a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-header">Social media</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/ankitgupta1020">
+                    Github
+                </a>
+            </li >
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/AnkitGu93350210">
+                    Twitter
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://www.instagram.com/ankit_gupta1020/">
+                    Instagram
+                </a>
+            </li>
+
+        </ul>
+
+    </footer>
+
+</body>
 </html>

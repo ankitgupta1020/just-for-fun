@@ -29,8 +29,11 @@ hr {
 /* link  */
 
 .link {
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem; 
 }
 
 .link-primary {
@@ -124,6 +127,13 @@ hr {
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+}
+.footer .link {
+    color: white;
+}
+.footer .link {
+    font-weight: bolds;
+    font-size: large;
 }
 
 .footer ul {
