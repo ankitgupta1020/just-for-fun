@@ -2,18 +2,20 @@
 
 
 :root {
-     --primary-color: #7C3AED; 
-     --dark-gray: #6B7280
+    --primary-color: #7C3AED;
+    --dark-gray: #6B7280;
+    --off-white: #6B7280;
 }
 
 
 body {
-font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 hr {
     margin: 2rem 0rem;
 }
+
 /** container **/
 .container {
     padding: 0rem 1rem;
@@ -21,7 +23,7 @@ hr {
 
 .container-center {
     max-width: 600px;
-    margin: auto; 
+    margin: auto;
 }
 
 /* link  */
@@ -30,6 +32,7 @@ hr {
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
+
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
@@ -47,20 +50,21 @@ hr {
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
 }
+
 /** look into BEM naming convention for CSS */
- /** list **/
+/** list **/
 
- .list-non-bullet {
+.list-non-bullet {
     list-style: none;
- }
+}
 
- .list-item-inline {
+.list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
- }
+}
 
- /** navigation **/
- .navigation {
+/** navigation **/
+.navigation {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
@@ -84,7 +88,7 @@ hr {
 }
 
 .hero {
-    padding: 2rem;  
+    padding: 2rem;
 }
 
 .hero .hero-img {
@@ -92,7 +96,22 @@ hr {
     display: block;
     margin: auto;
 }
+
 .hero .hero-heading {
     padding-top: 1rem;
-    color: var(--dark-gray) 
+    color: var(--dark-gray)
+}
+
+/** section **/
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
 }
