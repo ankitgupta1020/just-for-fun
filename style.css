@@ -15,6 +15,11 @@ body {
 hr {
     margin: 2rem 0rem;
 }
+/** spaces **/
+
+.margin-md {
+    margin: 2rem;
+}
 
 /** container **/
 .container {
